@@ -39,14 +39,14 @@ const particlesOptions = {
 class App extends Component {
   render() {
     return (
-      <div className="App mh4">
+      <div className="App">
         <Particles className="particles"
           params={particlesOptions}/>
         <Navigation />
         <Scroll>
-            <About />
-            <Portfolio />
-            <Contact />
+          <About />
+          <Portfolio />
+          <Contact />
         </Scroll>
       </div>
     );
