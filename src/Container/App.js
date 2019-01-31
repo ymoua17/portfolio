@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Particles from 'react-particles-js';
 import Navigation from '../Components/Navigation/Navigation';
-import Scroll from '../Components/Scroll/Scroll';
 import About from '../Components/About/About';
 import Portfolio from '../Components/Portfolio/Portfolio';
 import Contact from '../Components/Contact/Contact';
@@ -43,11 +42,19 @@ class App extends Component {
         <Particles className="particles"
           params={particlesOptions}/>
         <Navigation />
-        <Scroll>
-          <About />
-          <Portfolio />
-          <Contact />
-        </Scroll>
+        <About />
+        <div id="portfolio">
+          <h1 className="fw3 underline">Portfolio</h1>
+          <div className="flex flex-wrap justify-center">
+            <Portfolio name="Facial Recognition App" tech="React, Redux, JS, HTML5, & CSS3"/>
+            <Portfolio name="RoboFriends" tech="React, Redux, JS, HTML5, & CSS3"/>
+            <Portfolio name="Inspirational Quote Generator" tech="jQuery, JS, HTML5, & CSS3"/>
+            <Portfolio name="Color Gradiant Generator" tech="JS, HTML5, & CSS3"/>
+          </div>
+          
+        </div>
+        
+        <Contact />
       </div>
     );
   }

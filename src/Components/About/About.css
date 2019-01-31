@@ -1,6 +1,6 @@
 
 .portrait {
     width: 250px;
-    border: 2px solid white;
-    border-radius: 25%;
+    border: 1px solid white;
+    opacity: .8;
 }
