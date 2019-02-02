@@ -7,8 +7,8 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <div id="contact" className="pb5">
-            <h1 className="fw3 underline">Contact</h1>
+        <div id="contact" className="pb4">
+            <h1 className="fw3 underline">Contact Me</h1>
             <div className="dt mw6 center">
                 <div className="dtc v-mid">
                     <a href="mailto:yengkhongmoua@gmail.com" target="blank"><img className="icon1 hover-bg-dark-gray" src={gmail} alt="Gmail"/></a>
@@ -17,7 +17,7 @@ const Contact = () => {
                 </div>
             </div>
             <div className="pt3">
-                <a href={resume} target="blank" className="white-80 f3 no-underline-l hover-bg-dark-gray">Click Here to Download My Resume!</a>
+                <a href={resume} target="blank" className="white-80 f3 no-underline hover-bg-dark-gray">Click Here to Download My Resume!</a>
             </div>
         </div>
     )

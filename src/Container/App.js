@@ -43,18 +43,16 @@ class App extends Component {
           params={particlesOptions}/>
         <Navigation />
         <About />
+        <Contact />
         <div id="portfolio">
           <h1 className="fw3 underline">Portfolio</h1>
-          <div className="flex flex-wrap justify-center">
+          <div className="flex flex-wrap justify-center pb4">
             <Portfolio name="Facial Recognition App" tech="React, Redux, JS, HTML5, & CSS3"/>
             <Portfolio name="RoboFriends" tech="React, Redux, JS, HTML5, & CSS3"/>
             <Portfolio name="Inspirational Quote Generator" tech="jQuery, JS, HTML5, & CSS3"/>
             <Portfolio name="Color Gradiant Generator" tech="JS, HTML5, & CSS3"/>
           </div>
-          
         </div>
-        
-        <Contact />
       </div>
     );
   }
