@@ -4,7 +4,6 @@ import Navigation from '../Components/Navigation/Navigation';
 import About from '../Components/About/About';
 import Portfolio from '../Components/Portfolio/Portfolio';
 import Contact from '../Components/Contact/Contact';
-
 import './App.css';
 
 const particlesOptions = {
@@ -46,7 +45,7 @@ class App extends Component {
         <Contact />
         <div id="portfolio">
           <h1 className="fw3 underline">Portfolio</h1>
-          <div className="flex flex-wrap justify-center pb4">
+          <div className="pb4">
             <Portfolio name="Facial Recognition App" tech="React, Redux, JS, HTML5, & CSS3"/>
             <Portfolio name="RoboFriends" tech="React, Redux, JS, HTML5, & CSS3"/>
             <Portfolio name="Inspirational Quote Generator" tech="jQuery, JS, HTML5, & CSS3"/>
