@@ -8,16 +8,16 @@ import './Contact.css';
 const Contact = () => {
     return (
         <div id="contact" className="pb4">
-            <h1 className="fw3 underline">Contact Me</h1>
+            <h1 className="f3 fw3 underline">Contact Me</h1>
             <div className="dt mw6 center">
-                <div className="dtc v-mid">
+                <div className="dtc v-bottom">
                     <a href="mailto:yengkhongmoua@gmail.com" target="blank"><img className="icon1 hover-bg-dark-gray" src={gmail} alt="Gmail"/></a>
                     <a href="https://github.com/ymoua17" target="blank"><img className="icon hover-bg-dark-gray" src={github} alt="Github"/></a>
                     <a href="https://www.linkedin.com/in/yeng-moua-4a4805131/" target="blank"><img className="icon hover-bg-dark-gray" src={linkedin} alt="LinkedIn"/></a>
                 </div>
             </div>
             <div className="pt3">
-                <a href={resume} target="blank" className="white-80 f3 no-underline hover-bg-dark-gray">Click Here to Download My Resume!</a>
+                <a href={resume} target="blank" className="white-80 f4 no-underline hover-bg-dark-gray">Click Here to Download My Resume!</a>
             </div>
         </div>
     )

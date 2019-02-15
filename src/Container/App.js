@@ -3,7 +3,7 @@ import Particles from 'react-particles-js';
 import Navigation from '../Components/Navigation/Navigation';
 import About from '../Components/About/About';
 import Portfolio from '../Components/Portfolio/Portfolio';
-import Contact from '../Components/Contact/Contact';
+
 import './App.css';
 
 const particlesOptions = {
@@ -42,7 +42,6 @@ class App extends Component {
           params={particlesOptions}/>
         <Navigation />
         <About />
-        <Contact />
         <div id="portfolio">
           <h1 className="fw3 underline">Portfolio</h1>
           <div className="pb4">
