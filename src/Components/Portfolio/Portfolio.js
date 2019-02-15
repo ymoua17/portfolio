@@ -4,7 +4,7 @@ import './Portfolio.css';
 class Portfolio extends React.Component {
     render() {
         return (
-            <div className="bt bb b--white-80 white-80 center pb4">
+            <div className="bt bb b--grey white-80 center pb4 w-90">
                 <a className="white-80 f3 hover-bg-dark-gray dib pv3" href="https://github.com/ymoua17" target="blank">{this.props.name}</a>
                 <div className="center mw8">
                     <div className="cf">
