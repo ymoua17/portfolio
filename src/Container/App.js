@@ -9,16 +9,16 @@ import './App.css';
 const particlesOptions = {
   "particles": {
     "number": {
-      "value": 50,
+      "value": 45,
       "density": {
         "enable": false
       }
     },
     "size": {
-      "value": 3,
+      "value": 1,
       "random": true,
       "anim": {
-        "speed": 3,
+        "speed": 5,
         "size_min": 0.3,
       }
     },
@@ -27,7 +27,7 @@ const particlesOptions = {
     },
     "move": {
       "random": true,
-      "speed": 0.5,
+      "speed": 0.3,
       "direction": "bottom",
       "out_mode": "out"
     }

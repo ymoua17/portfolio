@@ -1,6 +1,14 @@
-
 .portrait {
     width: 250px;
     border: 1px solid white;
     opacity: .8;
+}
+.icon {
+    width: 50px;
+    height: 50px;
+}
+.icon1 {
+    widows: 40px;
+    height: 40px;
+    padding: 4px;
 }
