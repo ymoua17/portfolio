@@ -9,29 +9,45 @@ import './App.css';
 const particlesOptions = {
   "particles": {
     "number": {
-      "value": 45,
-      "density": {
-        "enable": false
+        "value": 100,
+        "density": {
+            "enable": true,
+            "value_area": 1500
+          }
+        },
+      "line_linked": {
+        "enable": false,
+        "opacity": .2
+        },
+      "move": {
+        "direction": "bottom",
+        "speed": .5
+        },
+      "size": {
+        "value": 1.5
+      },
+      "opacity": {
+        "anim": {
+            "enable": true,
+            "speed": .5,
+            "opacity_min": 0.05
+          }
+        }
+      },
+      "interactivity": {
+      "events": {
+        "onclick": {
+          "enable": true,
+          "mode": "push"
+        }
+      },
+      "modes": {
+        "push": {
+          "particles_nb": 100
+        }
       }
     },
-    "size": {
-      "value": 1,
-      "random": true,
-      "anim": {
-        "speed": 5,
-        "size_min": 0.3,
-      }
-    },
-    "line_linked": {
-      "enable": true,
-    },
-    "move": {
-      "random": true,
-      "speed": 0.3,
-      "direction": "bottom",
-      "out_mode": "out"
-    }
-  }
+  "retina_detect": true
 }
 
 class App extends Component {

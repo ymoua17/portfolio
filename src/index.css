@@ -4,7 +4,7 @@ body {
   font-family: "avenir";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: black;
+  background: radial-gradient(#303030 0%, #202020 25%, #101010 50%, #000000 80%);
   color: white;
 }
 
