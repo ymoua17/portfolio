@@ -43,12 +43,12 @@ class App extends Component {
         <Navigation />
         <About />
         <div id="portfolio">
-          <h1 className="fw3 underline">Portfolio</h1>
-          <div className="pb4">
+          <h1 className="fw3 underline ma0">Portfolio</h1>
+          <div className="pb6">
+            <Portfolio name="Color Gradiant Generator" tech="React, JS, CSS3, HTML 5"/>
             <Portfolio name="Facial Recognition App" tech="React, Redux, JS, HTML5, & CSS3"/>
             <Portfolio name="RoboFriends" tech="React, Redux, JS, HTML5, & CSS3"/>
             <Portfolio name="Inspirational Quote Generator" tech="jQuery, JS, HTML5, & CSS3"/>
-            <Portfolio name="Color Gradiant Generator" tech="JS, HTML5, & CSS3"/>
           </div>
         </div>
       </div>

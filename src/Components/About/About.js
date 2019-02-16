@@ -10,10 +10,10 @@ import './About.css'
 const About = () => {
     return (
         <div id="about">
-            <h1 className="fw3 underline">About Me</h1>
+            <h1 className="fw3 underline ma2">About Me</h1>
             <div className='center mw8'>
                 <div className="cf">
-                    <div className="v-mid pa2 fl w-100 w-50-ns">
+                    <div className="v-mid pa3 fl w-100 w-50-ns">
                         <img src={portrait} alt="portrait" className="portrait br4"/>
                     </div>
                     <div className="white-80 v-mid pa3 fl w-100 w-50-ns">
