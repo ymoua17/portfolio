@@ -3,6 +3,7 @@ import Particles from 'react-particles-js';
 import Navigation from '../Components/Navigation/Navigation';
 import About from '../Components/About/About';
 import Portfolio from '../Components/Portfolio/Portfolio';
+import ColorGeneratorGradient from '../Components/Portfolio/PortfolioGifs/ColorGradientGenerator.gif';
 
 import './App.css';
 
@@ -61,10 +62,12 @@ class App extends Component {
         <div id="portfolio">
           <h1 className="fw3 underline ma0">Portfolio</h1>
           <div className="pb6">
-            <Portfolio name="Color Gradiant Generator" tech="React, JS, CSS3, HTML 5"/>
-            <Portfolio name="Facial Recognition App" tech="React, Redux, JS, HTML5, & CSS3"/>
-            <Portfolio name="RoboFriends" tech="React, Redux, JS, HTML5, & CSS3"/>
-            <Portfolio name="Inspirational Quote Generator" tech="jQuery, JS, HTML5, & CSS3"/>
+            <Portfolio name="Color Gradiant Generator" 
+              gif={ColorGeneratorGradient} 
+              list1="Responsive front-end web application that generates a color gradient for users."
+              list2="Color gradient can be randomized or customizable to the user's liking."
+              list3="React, JS, CSS3, HTML5"
+              />
           </div>
         </div>
       </div>

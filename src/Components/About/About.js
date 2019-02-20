@@ -24,9 +24,11 @@ const About = () => {
                             <h1 className="f3 fw3 underline">Contact Me</h1>
                             <div className="dt mw6 center">
                                 <div className="dtc v-bottom">
-                                    <a href="mailto:yengkhongmoua@gmail.com" target="blank"><img className="icon1 hover-bg-dark-gray" src={gmail} alt="Gmail"/></a>
-                                    <a href="https://github.com/ymoua17" target="blank"><img className="icon hover-bg-dark-gray" src={github} alt="Github"/></a>
-                                    <a href="https://www.linkedin.com/in/yeng-moua-4a4805131/" target="blank"><img className="icon hover-bg-dark-gray" src={linkedin} alt="LinkedIn"/></a>
+                                    <a href="mailto:yengkhongmoua@gmail.com" target="_self"><img className="icon1 hover-bg-dark-gray" src={gmail} alt="Gmail"/></a>
+                                    {/* eslint-disable-next-line */}
+                                    <a href="https://github.com/ymoua17" target="_blank"><img className="icon hover-bg-dark-gray" src={github} alt="Github"/></a>
+                                    {/* eslint-disable-next-line */}
+                                    <a href="https://www.linkedin.com/in/yeng-moua-4a4805131/" target="_blank"><img className="icon hover-bg-dark-gray" src={linkedin} alt="LinkedIn"/></a>
                                 </div>
                             </div>
                             <div className="pt3">
