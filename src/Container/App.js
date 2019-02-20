@@ -63,6 +63,7 @@ class App extends Component {
           <h1 className="fw3 underline ma0">Portfolio</h1>
           <div className="pb6">
             <Portfolio name="Color Gradiant Generator" 
+              url="https://ymoua17.github.io/colorgenerator/"
               gif={ColorGeneratorGradient} 
               list1="Responsive front-end web application that generates a color gradient for users."
               list2="Color gradient can be randomized or customizable to the user's liking."

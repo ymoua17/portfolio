@@ -9,7 +9,8 @@ class Portfolio extends React.Component {
                 <div className="center mw8">
                     <div className="cf">
                         <div className="v-mid pa2 fl w-100 w-50-ns">
-                            <img src={this.props.gif} alt={this.props.name} className="project ba b-white--80 br4 grow pointer" />
+                            {/* eslint-disable-next-line  */}
+                            <a href={this.props.url} target="_blank"><img src={this.props.gif} alt={this.props.name} className="project ba b-white--80 br4 grow pointer" /></a>
                         </div>
                         <div className="white-80 v-mid pa2 fl w-100 w-50-ns f4">
                             <ul className="tl">
