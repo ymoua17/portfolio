@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://ymoua17.github.io/portfolio",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.7.0",
     "react-bootstrap": "^0.32.4",
     "react-dom": "^16.7.0",
