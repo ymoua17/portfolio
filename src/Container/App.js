@@ -4,7 +4,7 @@ import Navigation from '../Components/Navigation/Navigation';
 import About from '../Components/About/About';
 import Portfolio from '../Components/Portfolio/Portfolio';
 import ColorGeneratorGradient from '../Components/Portfolio/PortfolioGifs/ColorGradientGenerator.gif';
-import BreakingBadQuoteGenerator from '../Components/Portfolio/PortfolioGifs/BreakingBadQuoteGenerator.gif'
+import BreakingBadQuoteGenerator from '../Components/Portfolio/PortfolioGifs/BreakingBadQuoteGenerator.gif';
 
 import './App.css';
 
