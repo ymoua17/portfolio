@@ -1,0 +1,21 @@
+{
+  "main.css": "/portfolio/static/css/main.18ceaad5.chunk.css",
+  "main.js": "/portfolio/static/js/main.3217d24f.chunk.js",
+  "main.js.map": "/portfolio/static/js/main.3217d24f.chunk.js.map",
+  "runtime~main.js": "/portfolio/static/js/runtime~main.0fad4c0f.js",
+  "runtime~main.js.map": "/portfolio/static/js/runtime~main.0fad4c0f.js.map",
+  "static/css/2.e1b8a09f.chunk.css": "/portfolio/static/css/2.e1b8a09f.chunk.css",
+  "static/js/2.0c05c4b9.chunk.js": "/portfolio/static/js/2.0c05c4b9.chunk.js",
+  "static/js/2.0c05c4b9.chunk.js.map": "/portfolio/static/js/2.0c05c4b9.chunk.js.map",
+  "index.html": "/portfolio/index.html",
+  "precache-manifest.e69ed54ec502bffb6a150b50879c1b67.js": "/portfolio/precache-manifest.e69ed54ec502bffb6a150b50879c1b67.js",
+  "service-worker.js": "/portfolio/service-worker.js",
+  "static/css/2.e1b8a09f.chunk.css.map": "/portfolio/static/css/2.e1b8a09f.chunk.css.map",
+  "static/css/main.18ceaad5.chunk.css.map": "/portfolio/static/css/main.18ceaad5.chunk.css.map",
+  "static/media/BreakingBadQuoteGenerator.gif": "/portfolio/static/media/BreakingBadQuoteGenerator.436d68a7.gif",
+  "static/media/ColorGradientGenerator.gif": "/portfolio/static/media/ColorGradientGenerator.87dbc195.gif",
+  "static/media/gmail.png": "/portfolio/static/media/gmail.5ae28da9.png",
+  "static/media/linkedin.png": "/portfolio/static/media/linkedin.968ea628.png",
+  "static/media/portrait.jpg": "/portfolio/static/media/portrait.2bd68893.jpg",
+  "static/media/resume.pdf": "/portfolio/static/media/resume.14c4a138.pdf"
+}
