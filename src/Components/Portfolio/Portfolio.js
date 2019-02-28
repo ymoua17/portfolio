@@ -5,7 +5,7 @@ class Portfolio extends React.Component {
     render() {
         return (
             <div className="white-80 center pb3 w-90">
-                <a className="white-80 f3 hover-bg-dark-gray dib pv3 no-underline" href={this.props.github} target="blank">- {this.props.name}</a>
+                <a className="white-80 f3 dib pv3 no-underline grow underline-hover" href={this.props.github} target="blank">- {this.props.name}</a>
                 <div className="center mw8">
                     <div className="cf">
                         <div className="v-mid pa2 fl w-100 w-50-ns">
