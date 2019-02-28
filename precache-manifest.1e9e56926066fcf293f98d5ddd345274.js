@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/linkedin.968ea628.png"
   },
   {
-    "revision": "3217d24ffd51d1b6b9c9",
+    "revision": "e91f28817252bf12e7b9",
     "url": "/portfolio/static/css/main.18ceaad5.chunk.css"
   },
   {
@@ -24,16 +24,16 @@ self.__precacheManifest = [
     "url": "/portfolio/static/media/portrait.2bd68893.jpg"
   },
   {
-    "revision": "3217d24ffd51d1b6b9c9",
-    "url": "/portfolio/static/js/main.3217d24f.chunk.js"
+    "revision": "e91f28817252bf12e7b9",
+    "url": "/portfolio/static/js/main.e91f2881.chunk.js"
   },
   {
     "revision": "5ae28da96e2f87270245cb80f25e372c",
     "url": "/portfolio/static/media/gmail.5ae28da9.png"
   },
   {
-    "revision": "14c4a1385d0a4085fd33568577852aae",
-    "url": "/portfolio/static/media/resume.14c4a138.pdf"
+    "revision": "3bf1b84f25122bfcae372a59a479a89f",
+    "url": "/portfolio/static/media/resume.3bf1b84f.pdf"
   },
   {
     "revision": "87dbc19574b046fe97251ecdf5edcbb9",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/portfolio/static/css/2.e1b8a09f.chunk.css"
   },
   {
-    "revision": "bec2e68b0b038c4dfc3b7d56a210d13e",
+    "revision": "78d4842fef11c073556128f164368f25",
     "url": "/portfolio/index.html"
   }
 ];
