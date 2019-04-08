@@ -3,7 +3,6 @@ import portrait from './portrait.jpg';
 import github from './Icons/github.png';
 import linkedin from './Icons/linkedin.png';
 import gmail from './Icons/gmail.png';
-import resume from './Resume/resume.pdf'
 import './About.css'
 
 
@@ -29,9 +28,6 @@ const About = () => {
                                     {/* eslint-disable-next-line */}
                                     <a href="https://www.linkedin.com/in/yeng-moua-4a4805131/" target="_blank"><img className="icon hover-bg-dark-gray grow" src={linkedin} alt="LinkedIn"/></a>
                                 </div>
-                            </div>
-                            <div className="pt3">
-                                <button className="bg-moon-gray grow pa2 br4 pointer"><a href={resume} target="blank" className="black f4 no-underline">View My Resume</a></button>
                             </div>
                         </div>
                     </div>

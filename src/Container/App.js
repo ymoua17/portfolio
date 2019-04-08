@@ -79,6 +79,7 @@ class App extends Component {
               list2="Generated quote can be tweeted to user's Twitter."
               list3="React, JS, CSS3, HTML5"
               />
+              <p className="white-80 f3">Come back soon for more projects!</p>
           </div>
         </div>
       </div>
