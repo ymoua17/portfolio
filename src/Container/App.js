@@ -4,6 +4,7 @@ import Navigation from '../Components/Navigation/Navigation';
 import About from '../Components/About/About';
 import Portfolio from '../Components/Portfolio/Portfolio';
 import ColorGeneratorGradient from '../Components/Portfolio/PortfolioGifs/ColorGradientGenerator.gif';
+import JavascriptCalculator from '../Components/Portfolio/PortfolioGifs/JavascriptCalculator.gif';
 import BreakingBadQuoteGenerator from '../Components/Portfolio/PortfolioGifs/BreakingBadQuoteGenerator.gif';
 
 import './App.css';
@@ -70,6 +71,14 @@ class App extends Component {
               list1="Responsive web application that generates a color gradient for users."
               list2="Color gradient can be randomized or customizable to the user's liking."
               list3="React, JS, CSS3, HTML5"
+              />
+            <Portfolio name="Javascript Calculator" 
+              url="https://ymoua17.github.io/jscalculator/"
+              github="https://github.com/ymoua17/jscalculator"
+              gif={JavascriptCalculator} 
+              list1="Simple calculator created using React and Bootstrap."
+              list2="Built this app to solidify state management."
+              list3="React, JS, Bootstrap, CSS3, HTML5"
               />
             <Portfolio name="Breaking Bad Quote Generator" 
               url="https://ymoua17.github.io/quotegenerator/"
